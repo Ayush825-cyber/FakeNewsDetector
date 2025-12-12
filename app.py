@@ -7,7 +7,6 @@ import base64
 import pandas as pd
 import numpy as np
 from time import sleep
-from matplotlib import pyplot as plt  # optional, left for backward compat
 import datetime
 import os
 
@@ -704,3 +703,4 @@ if predict_btn:
 # ---------------------------
 st.markdown("<br/>", unsafe_allow_html=True)
 st.markdown('<div class="footer muted">Powered by AI — Aurora Neon+ Edition</div>', unsafe_allow_html=True)
+
