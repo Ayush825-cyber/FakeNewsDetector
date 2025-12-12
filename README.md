@@ -43,11 +43,17 @@ Language ->	Python
 # Project Structure
 Fake-News-Detector/
 │── app.py                # Main Streamlit application
+
 │── f2.py                 # Model training script
+
 │── model.pkl             # Trained ML model
+
 │── vectorizer.pkl        # Saved TF-IDF vectorizer
+
 │── dataset.csv           # Training dataset
+
 │── requirements.txt      # Required libraries
+
 │── README.md             # Documentation
 
 # Installation & Setup
@@ -125,5 +131,7 @@ API deployment on cloud
 # Developer
 
 Ayush
-Fake News Detection Project — 2025
-Built with love and AI assistance.
+
+(Fake News Detection Project — 2025)
+
+(Built with love and AI assistance.)
