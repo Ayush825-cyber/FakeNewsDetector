@@ -5,9 +5,7 @@ The system can analyze:
 
 
 Manually pasted news text
-
 Real-time online news articles (via URL extraction)
-
 Bulk CSV files with multiple news entries
 
 
@@ -16,35 +14,35 @@ It produces a credibility score, a fake/real prediction, and includes a beautifu
 # Features
 1. Real-time Fake News Detection:
 
-Paste text or enter a URL — the system extracts and analyzes the article.
+  Paste text or enter a URL — the system extracts and analyzes the article.
 
 2. Machine Learning Model (Logistic Regression):
 
-Trained on labeled fake/real news datasets using TF-IDF (5000 features).
+  Trained on labeled fake/real news datasets using TF-IDF (5000 features).
 
 3. Animated UI Components:
 
-Aurora Neon Theme
+  Aurora Neon Theme
 
-Animated credibility gauge
+  Animated credibility gauge
 
-Gradient badges
+  Gradient badges
 
-Smooth transitions
+  Smooth transitions
 
 4. Batch Processing:
 
-Upload a CSV containing a text column to classify hundreds of articles at once.
+  Upload a CSV containing a text column to classify hundreds of articles at once.
 
 5. URL Content Extraction:
 
-Supports:
+  Supports:
 
-newspaper3k
+  newspaper3k
 
-readability-lxml
+  readability-lxml
 
-Fallback: BeautifulSoup scraper
+  Fallback: BeautifulSoup scraper
 
 # Tech Stack
 
@@ -81,17 +79,17 @@ Fake-News-Detector/
 # Installation & Setup
 1️. Clone the repository:
 
-git clone <your-repo-link>
+  git clone <your-repo-link>
 
-cd Fake-News-Detector
+  cd Fake-News-Detector
 
 2️. Install all dependencies:
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 3️. Run the web app:
 
-streamlit run app.py
+  streamlit run app.py
 
 
 The application will open in your browser automatically.
@@ -99,35 +97,35 @@ The application will open in your browser automatically.
 # How It Works
 1. Preprocessing:
 
-Lowercase conversion
+  Lowercase conversion
 
-Removing punctuation
+  Removing punctuation
 
-Stopword removal
+  Stopword removal
 
-Lemmatization
+  Lemmatization
 
-TF-IDF vectorization
+  TF-IDF vectorization
 
 2. Model Prediction:
 
-For each input, the model outputs:
+  For each input, the model outputs:
 
-Fake News (0)
+  Fake News (0)
 
-Real News (1)
+  Real News (1)
 
-Probability score → displayed via animated gauge
+  Probability score → displayed via animated gauge
 
 3. UI Output:
 
-Prediction category
+  Prediction category
 
-Credibility score (%)
+  Credibility score (%)
 
-Animation badge
+  Animation badge
 
-Optional explanation
+  Optional explanation
 
 # Batch Analysis (CSV Upload)
 
@@ -153,19 +151,19 @@ System extracts content → runs the same ML pipeline → returns prediction + s
 
 1. Install dependencies
 
-pip install -r requirements.txt
+  pip install -r requirements.txt
 
 2. Run the application
 
-streamlit run app.py
+  streamlit run app.py
 
 3. Test using:
 
-Manually typed news
+  Manually typed news
 
-URL extraction
+  URL extraction
 
-Bulk CSV upload
+  Bulk CSV upload
 
 
 No external configuration is required.
