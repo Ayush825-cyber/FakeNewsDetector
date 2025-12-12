@@ -5,7 +5,9 @@ The system can analyze:
 
 
 Manually pasted news text
+
 Real-time online news articles (via URL extraction)
+
 Bulk CSV files with multiple news entries
 
 
@@ -22,13 +24,13 @@ It produces a credibility score, a fake/real prediction, and includes a beautifu
 
 3. Animated UI Components:
 
-  Aurora Neon Theme
+    Aurora Neon Theme
 
-  Animated credibility gauge
+    Animated credibility gauge
 
-  Gradient badges
+    Gradient badges
 
-  Smooth transitions
+    Smooth transitions
 
 4. Batch Processing:
 
